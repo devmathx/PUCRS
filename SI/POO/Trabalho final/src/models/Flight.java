@@ -1,3 +1,4 @@
+package models;
 public class Flight {
   
   private String origin; // Criar enum de cidades permitidas no sistema

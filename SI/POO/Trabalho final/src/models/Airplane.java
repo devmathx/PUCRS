@@ -1,3 +1,4 @@
+package models;
 public class Airplane {
   
   private String code;
