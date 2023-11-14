@@ -11,5 +11,11 @@ public class Sale {
     this.hour = hour;
   }
 
-
+  public String toString() {
+    String text = "";
+    text += "Comprador: " + this.buyer + " | ";
+    text += "Voô: " + this.flight + " | ";
+    text += "Horário: " + this.hour;
+    return text;
+  }
 }

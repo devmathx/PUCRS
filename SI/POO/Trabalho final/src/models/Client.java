@@ -22,4 +22,12 @@ public class Client {
   public String getRg() {
     return rg;
   }
+
+  public String toString() {
+    String text = "";
+    text += "RG: " + this.rg + " | ";
+    text += "Nome: " + this.name + " | ";
+    text += "Telefone: " + this.phone;
+    return text;
+  }
 }

@@ -24,4 +24,21 @@ public class Airplane {
     this.busy++;
     return true;
   }
+
+  public String getName() {
+    return name;
+  }
+
+  public String getCode() {
+    return code;
+  }
+
+  public String toString() {
+    String text = "";
+    text += "Código: " + this.code + " | ";
+    text += "Nome: " + this.name + " | ";
+    text += "Quantidade de assentos: " + this.seatsQuantity + " | ";
+    text += "Assentos ocupados: " + this.busy;
+    return text;
+  }
 }
